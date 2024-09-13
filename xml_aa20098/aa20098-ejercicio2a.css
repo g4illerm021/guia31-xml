@@ -1,0 +1,85 @@
+
+pais {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+}
+
+pais::before {
+  content: "Información del País";
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+pais > * {
+  margin: 10px 0;
+}
+
+pais > idiomas {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+idiomas > * {
+  margin: 5px 0;
+}
+
+idiomas > oficial::before {
+  content: "Idioma Oficial: ";
+  font-weight: bold;
+}
+
+idiomas > autoctono::before {
+  content: "Idioma Autóctono: ";
+  font-weight: bold;
+}
+
+idiomas > segundo::before {
+  content: "Segundo Idioma: ";
+  font-weight: bold;
+}
+
+departamento {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+departamento:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+departamento > * {
+  margin: 5px 0;
+}
+
+departamento > cabecera::before {
+  content: "Cabecera: ";
+  font-weight: bold;
+}
+
+departamento > habitantes::before {
+  content: "Habitantes: ";
+  font-weight: bold;
+}
+
+departamento > altura::before {
+  content: "Altura: ";
+  font-weight: bold;
+}
+
+
+pais::after {
+  content: "Nombre: " attr(nombre) ", Moneda: " attr(moneda) ", Código Telefónico: " attr(codigo_telefonico) ", Área Territorial: " attr(area_territorial);
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
