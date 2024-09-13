@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="aa20098-ejercicio2a.css" ?>
+<!-- ejemplo2.xml  SUCARNET -->
+<pais nombre="El Salvador" moneda="Dólar estadounidense" codigo_telefonico="503" area_territorial="21,041 km²">
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Nahuat</autoctono>
+    <segundo>Inglés</segundo>
+  </idiomas>
+
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+
+  <departamento id="2" nombre="Santa Ana">
+    <cabecera>Santa Ana</cabecera>
+    <habitantes>600,000</habitantes>
+    <altura>665 MSNM</altura>
+  </departamento>
+  <encale>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="./index.html">Regresar al index</a>
+  </encale>
+</pais>
+

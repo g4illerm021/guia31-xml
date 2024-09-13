@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="aa20098-ejercicio1b.css" ?>
+<!-- ejemplo1.xml  SUCARNET -->
+<fichero>
+  <ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  <ficha id="2" fechaingreso="15/05/2020">
+    <nombre>Guillermo</nombre>
+    <apellido>Alfaro</apellido>
+    <direccion>Apopa, San Salvador</direccion>
+    <telefono>12347890</telefono>
+    <email>aa20098@ues.edu.sv</email>
+    <website>http://aa20098.neocities.org</website>
+  </ficha>
+  <ficha id="3" fechaingreso="10/01/2018">
+    <nombre>Guillermo</nombre>
+    <apellido>Alfaro</apellido>
+    <direccion>Apopa, San Salvador</direccion>
+    <telefono>12347890</telefono>
+    <email>aa20098@ues.edu.sv</email>
+    <website>http://aa20098.neocities.org</website>
+    <dui>01234567-8</dui>
+  </ficha>
+<encale>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="./index.html">Regresar al index</a>
+  </encale>
+</fichero>

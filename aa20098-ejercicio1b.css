@@ -1,0 +1,65 @@
+
+fichero {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  ficha {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  ficha:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  ficha > * {
+    margin: 5px 0;
+  }
+  
+  nombre, apellido, direccion, telefono, email, website, dui {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  ficha > nombre::before {
+    content: "Nombre: ";
+    font-weight: bold;
+  }
+  
+  ficha > apellido::before {
+    content: "Apellido: ";
+    font-weight: bold;
+  }
+  
+  ficha > direccion::before {
+    content: "Dirección: ";
+    font-weight: bold;
+  }
+  
+  ficha > telefono::before {
+    content: "Teléfono: ";
+    font-weight: bold;
+  }
+  
+  ficha > email::before {
+    content: "Email: ";
+    font-weight: bold;
+  }
+  
+  ficha > website::before {
+    content: "Sitio web: ";
+    font-weight: bold;
+  }
+  
+  ficha > dui::before {
+    content: "DUI: ";
+    font-weight: bold;
+  }
+  
+  
